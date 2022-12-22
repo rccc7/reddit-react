@@ -89,3 +89,17 @@ application. These types will be compatible with the graphql types defined in th
 16. Create the repository reddit-react in github, then add the project to the repository:
 	git remote add origin https://github.com/rccc7/reddit-react.git
 	git add .
+	git commit
+	git push -u origin main
+17. Upload to Vercel by first creating a new project and then adding 
+	the evironment variables stored in the .env.local file with the exception in this one:
+	- NEXTAUTH_URL=http://localhost:3000 --> jost for declaring the variable. after
+	deploying we'll replace with the URL where the project is deployed
+18. Configure the reddit app to enable the redirect URI to the vercel URL:
+	- Go to: https://www.reddit.com/prefs/apps then at the end of the page go to developed applications
+	and select the educational react clone and click edit and change the redirect uri as follows:
+		From: http://localhost:3000/api/auth/callback/reddit
+		To: https://reddit-react-rccc7.vercel.app/api/auth/callback/reddit
+
+	and finally click on Update app and redeploy the vercel app
+

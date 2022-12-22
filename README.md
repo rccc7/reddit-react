@@ -1,27 +1,19 @@
-# Next.js + Tailwind CSS Example
+# Reddit Educational Clone made with Next.js + Tailwind CSS
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This project shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Deploy your own
+This is just a demo to demonstrate the capabilities with Next.js with tailWind CSS along with the following technologies:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- [Heroicons](https://github.com/tailwindlabs/heroicons)
+- [Next Auth](https://next-auth.js.org/getting-started/example): Users can login the app using their reddit account.
+- [Reddit provider](https://next-auth.js.org/providers/reddit).
+- [Supabase](www.supabase.com) postgresql database.
+- [Stepzen & Graphql](https://stepzen.com/) to access and interact with the postgreSQL database through graphql.
+- [Apollo Client](https://www.apollographql.com/blog/apollo-client/next-js/next-js-getting-started/) to manage data data with graphql from the react app.
+- [React-Hook](https://react-hook-form.com/) which is a hook that allows us to optimize the form management by reducing the amount of code needed to write while removing unnecessary re-renders.
+- [React-hot-toast](https://react-hot-toast.com/docs) which brings beautiful notifications and easy to use functionality in our React app.
+- [UI ball Loaders](https://uiball.com/loaders/) which provides free loaders and spinners when we want to wait for asynchronous processes.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Disclaimer
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+This is just a demo project with the intention of test and practice with the latest Next.js framework feactures for React.
