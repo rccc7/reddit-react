@@ -2,7 +2,7 @@
 
 Reddit-like portal. App similar to reddit UI that simulates the process of posting, commenting and voting reddits. Users can log in using their Reddit account through Next-auth and start posting or commenting reddits. Once logged in, users can post new reddits, comment, and vote like as if they were using reddit.
 
-See it in action: <a href="https://reddit-react-rccc7.vercel.app/" target="_blank">https://reddit-react-rccc7.vercel.app</a>
+Try it out at: <a href="https://reddit-react-rccc7.vercel.app/" target="_blank">https://reddit-react-rccc7.vercel.app</a>
 
 ## Screenshots:
 
