@@ -19,7 +19,7 @@ The following technologies, components and services were used:
 - [Next Auth](https://next-auth.js.org/getting-started/example): Users can login the app using their reddit account.
 - [Reddit provider](https://next-auth.js.org/providers/reddit) for Next.js.
 - [Reddit API](https://www.reddit.com/dev/api/).
-- [Supabase](www.supabase.com) postgresql database.
+- [Supabase](www.supabase.com) postgresql relational database to store the posts, votes, and comments.
 - [Stepzen & Graphql](https://stepzen.com/) to access and interact with the postgreSQL database through graphql.
 - [Apollo Client](https://www.apollographql.com/blog/apollo-client/next-js/next-js-getting-started/) to manage data data with graphql from the react app.
 - [React-Hook](https://react-hook-form.com/) which is a hook that allows us to optimize the form management by reducing the amount of code needed to write while removing unnecessary re-renders.
