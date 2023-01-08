@@ -17,7 +17,8 @@ The following technologies, components and services were used:
 - Next.js
 - [Heroicons](https://github.com/tailwindlabs/heroicons)
 - [Next Auth](https://next-auth.js.org/getting-started/example): Users can login the app using their reddit account.
-- [Reddit provider](https://next-auth.js.org/providers/reddit).
+- [Reddit provider](https://next-auth.js.org/providers/reddit) for Next.js.
+- [Reddit API](https://www.reddit.com/dev/api/).
 - [Supabase](www.supabase.com) postgresql database.
 - [Stepzen & Graphql](https://stepzen.com/) to access and interact with the postgreSQL database through graphql.
 - [Apollo Client](https://www.apollographql.com/blog/apollo-client/next-js/next-js-getting-started/) to manage data data with graphql from the react app.
@@ -27,7 +28,7 @@ The following technologies, components and services were used:
 
 ## Disclaimer
 
-This is just a demo project with the intention of test and practice with the latest Next.js framework feactures for React and for testing and ussage [Reddit provider](https://next-auth.js.org/providers/reddit) features. 
+This is just a demo project with the intention of test and practice with the latest Next.js framework feactures for React and for testing and the [Reddit API](https://www.reddit.com/dev/api/) & [Reddit provider](https://next-auth.js.org/providers/reddit) features. 
 
 ## Step by Step Setup & Deployment Instructions from scratch:
 
