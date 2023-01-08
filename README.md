@@ -1,4 +1,4 @@
-# Reddit Educational Clone made with Next.js + Tailwind CSS
+# Reddit Clone made with Next.js + Tailwind CSS
 
 Reddit-like portal. App similar to reddit UI that simulates the process of posting, commenting and voting reddits. Users can log in using their Reddit account through Next-auth and start posting or commenting reddits. Once logged in, users can post new reddits, comment, and vote like as if they were using reddit.
 
@@ -27,7 +27,7 @@ The following technologies, components and services were used:
 
 ## Disclaimer
 
-This is just a demo project with the intention of test and practice with the latest Next.js framework feactures for React.
+This is just a demo project with the intention of test and practice with the latest Next.js framework feactures for React and for testing and ussage [Reddit provider](https://next-auth.js.org/providers/reddit) features. 
 
 ## Step by Step Setup & Deployment Instructions from scratch:
 
