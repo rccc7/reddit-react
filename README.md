@@ -11,6 +11,7 @@ Try it out at: <a href="https://reddit-react-rccc7.vercel.app/" target="_blank">
 </div>
 
 ## Technologies
+
 The following technologies, components and services were used:
 
 - React.js
@@ -28,14 +29,15 @@ The following technologies, components and services were used:
 
 ## Disclaimer
 
-This is just a demo project with the intention of test and practice with the latest Next.js framework features for React and for testing and the [Reddit API](https://www.reddit.com/dev/api/) & [Reddit provider](https://next-auth.js.org/providers/reddit) features. 
+This is just a demo project with the intention of test and practice with the latest Next.js framework features for React and for testing and the [Reddit API](https://www.reddit.com/dev/api/) & [Reddit provider](https://next-auth.js.org/providers/reddit) features.
 
+<!--
 ## Step by Step Setup & Deployment Instructions from scratch:
 
 1. To install the nextjs with tailwind follow the instructions here:
 	https://tailwindcss.com/docs/guides/nextjs#
 But with a slight modification in which we define the react-version (12.3)
- and add the example parameeter to download with the tailwindcss template: 
+ and add the example parameeter to download with the tailwindcss template:
  	```bash
 	npx create-next-app -e with-tailwindcss reddit-react
 	cd reddit-react
@@ -54,11 +56,11 @@ But with a slight modification in which we define the react-version (12.3)
 5. To use the reddit provider follow the instructions at: https://next-auth.js.org/providers/reddit to create a new reddit app and enable the auth functionality. The fields to fill are:
 
 	Name: educational react clone
-	redirect uri: http://localhost:3000/api/auth/callback/reddit --> which is gonna be updated when deploying to vercel.
+	redirect uri: http://localhost:3000/api/auth/callback/reddit -> which is gonna be updated when deploying to vercel.
 	Once created the applciation copy the webapp ID and secret values and paste them in the env.local config file.
 	The next step is to wrap the entire app (_app.tsx) inside the SessionProvider provider, which allows to use the session and hooks from next-auth.
 6. Configure the supabase database:
-	- Go to supabase.com, signIn and/or create an account. In this case we're going 
+	- Go to supabase.com, signIn and/or create an account. In this case we're going
 	to sign In with github account.
 	- Set up the postgres DB:
 		- Create a new project an name it reddit-react and assign it a string password.
@@ -81,8 +83,8 @@ But with a slight modification in which we define the react-version (12.3)
 		ct stepzen
 		stepzen init
 		```
-		👆🏻👆🏻👆🏻 (when asked: "What would you like your endpoint to be called?" 
-		|--> Accept the sugestion by pressing enter)
+		👆🏻👆🏻👆🏻 (when asked: "What would you like your endpoint to be called?"
+		|-> Accept the sugestion by pressing enter)
 		This command created the file stepzen.config.json inside the stepzen diectory.
 
 	- For more detailed information go to this link: https://stepzen.com/docs/quick-start/install-and-setup
@@ -92,7 +94,7 @@ But with a slight modification in which we define the react-version (12.3)
 		```
 		👆👆👆 This command starts creating a GraphQL API that connects the
 		 data from your PostgreSQL database. For more info go to https://stepzen.com/docs/quick-start/with-database-postgresql
-		 The folder postgresql and index.graphql file inside that folder, which contains the graphql types 
+		 The folder postgresql and index.graphql file inside that folder, which contains the graphql types
 		 (based on the tables already registered on supabase), inside that folfer were automatically created.
 		 The file index.graphql was also created automatically.
 	- To fill the required information go to supabase - settings - Database -> Then in that view scroll down to "Connection Info" and copy the  credentials described there: Host, db name, port, user, password.
@@ -108,10 +110,10 @@ But with a slight modification in which we define the react-version (12.3)
 		```bash
 		npm install @apollo/client graphql
 		```
-	- Obtain the API key (after having installed and configured stepzen 
+	- Obtain the API key (after having installed and configured stepzen
     as described lines above) we execute the command
     	```bash
-    	 stepzen whoami --apikey 
+    	 stepzen whoami --apikey
 	 ```
     then copy the api key and paste in the env.local file by assigning to the NEXT_PUBLIC_STEPZEN_KEY variable
 9. Configure the NEXTAUTH_SECRET AND NEXTAUTH_URL variables in the env.local file.
@@ -136,10 +138,11 @@ But with a slight modification in which we define the react-version (12.3)
 	```
 16. Create the repository reddit-react in github, then add the project to the repository.
 17. Upload to Vercel by first creating a new project and then adding  the evironment variables stored in the .env.local file with the exception in this one:
-	- NEXTAUTH_URL=http://localhost:3000 --> jost for declaring the variable. after	deploying we'll replace with the URL where the project is deployed.
+	- NEXTAUTH_URL=http://localhost:3000 -> jost for declaring the variable. after	deploying we'll replace with the URL where the project is deployed.
 18. Configure the reddit app to enable the redirect URI to the vercel URL:
 	- Go to: https://www.reddit.com/prefs/apps then at the end of the page go to developed applications and select the educational react clone and click edit and change the redirect uri as follows:
 		From: http://localhost:3000/api/auth/callback/reddit
 		To: https://reddit-react-rccc7.vercel.app/api/auth/callback/reddit
 
 	and finally click on Update app and redeploy the vercel app.
+-->
