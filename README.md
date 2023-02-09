@@ -28,7 +28,7 @@ The following technologies, components and services were used:
 
 ## Disclaimer
 
-This is just a demo project with the intention of test and practice with the latest Next.js framework feactures for React and for testing and the [Reddit API](https://www.reddit.com/dev/api/) & [Reddit provider](https://next-auth.js.org/providers/reddit) features. 
+This is just a demo project with the intention of test and practice with the latest Next.js framework features for React and for testing and the [Reddit API](https://www.reddit.com/dev/api/) & [Reddit provider](https://next-auth.js.org/providers/reddit) features. 
 
 ## Step by Step Setup & Deployment Instructions from scratch:
 
