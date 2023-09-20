@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   return (
     <div className="my-7 mx-auto max-w-5xl">
       <Head>
-        <title>Reddit 2.0 - React</title>
+        <title>Reddit - React Clone</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       {/* There is no need to put the header component here,since we are calling 
