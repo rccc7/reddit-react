@@ -1,4 +1,4 @@
 configurationset:
   - configuration:
       name: postgresql_config
-      uri: postgresql://db.wixxuvaxgstlznnzarsk.supabase.co/postgres?user=postgres&password=Pwd4RedditReact-
+      uri: <connection string must be obtained from supabase dashboard - project - settings - database. and pasted here> 
