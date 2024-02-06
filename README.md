@@ -26,6 +26,7 @@ The following technologies, components and services were used:
 - [React-Hook](https://react-hook-form.com/) which is a hook that allows us to optimize the form management by reducing the amount of code needed to write while removing unnecessary re-renders.
 - [React-hot-toast](https://react-hot-toast.com/docs) which brings beautiful notifications and easy to use functionality in our React app.
 - [UI ball Loaders](https://uiball.com/loaders/) which provides free loaders and spinners when we want to wait for asynchronous processes.
+- [DiceBear HTTP API](https://www.dicebear.com/introduction/) to generate and display different avatars based on post titles and users.
 
 ## Disclaimer
 
